@@ -1,4 +1,4 @@
-package com.example.web.util;
+package com.example.util;
 
 import org.springframework.beans.factory.annotation.Value;
 

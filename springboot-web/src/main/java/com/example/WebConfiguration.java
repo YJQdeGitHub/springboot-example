@@ -1,4 +1,4 @@
-package com.example.web;
+package com.example;
 
 import org.apache.catalina.filters.RemoteIpFilter;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;

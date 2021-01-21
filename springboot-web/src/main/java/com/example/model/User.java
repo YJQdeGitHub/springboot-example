@@ -1,4 +1,4 @@
-package com.example.web.model;
+package com.example.model;
 
 import javax.persistence.Column;
 import javax.persistence.GeneratedValue;
