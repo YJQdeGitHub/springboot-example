@@ -1,8 +1,10 @@
 package com.example.model;
 
 import javax.persistence.Column;
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import java.io.Serializable;
 
 /**
  * @ClassName User
@@ -11,7 +13,8 @@ import javax.persistence.Id;
  * @Date 2021/1/21 17:06
  * @Version 1.0
  **/
-public class User {
+@Entity
+public class User implements Serializable {
 
     private static final long serialVersionUID = 1L;
     @Id
